@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.navbar {
+  font-size: 1rem;
+  background-color: #03045E;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.taskbars p {
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+.inputCont input {
+  width: 25rem;
+  border: 2px solid #03045E;
+}
+
+.but input {
+  font-size: 1rem;
+  background-color: #03045E;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: #03045E;
+}
+
+.mobileSearchCont {
+  border: 1.5px solid #03045E;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.rightBar {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.bigText {
+  color: #03045E;
+}
+
+@media screen and (max-width: 1029px) {
+  .inputCont input {
+    width: 15rem;
+  }
+  .input {
+    font-size: 1rem;
+  }
+}
+
+.heroBtn, .heroBtnn {
+  width: 48%;
+  border-color: #03045E;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.heroBtnn {
+  background-color: #03045E;
+  color: white;
+}
+
+.heroBtnn:hover {
+  background-color: white;
+  color: #03045E;
+}
+
+.heroBtn:hover {
+  background-color: #03045E;
+  color: white;
+}
+/*# sourceMappingURL=navbar.css.map */

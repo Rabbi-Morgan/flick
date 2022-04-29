@@ -1,0 +1,63 @@
+@import "./variables/variables.scss";
+@mixin defaultColorAndFont($font-size: 1rem) {
+    font-size: $font-size;
+    background-color: $primaryColorBlue;
+    color: white;
+    font-family: $primaryFont;
+    
+}
+.navbar{
+    @include defaultColorAndFont(1rem);
+}
+.taskbars p {
+    font-size: .7rem;
+    font-weight: 400;
+
+}
+.inputCont input {
+    width: 25rem;
+    border: 2px solid $primaryColorBlue;
+}
+.but input {
+    @include defaultColorAndFont(1rem);
+}
+.logo {
+    color: $primaryColorBlue;
+}
+.mobileSearchCont {
+    border: 1.5px solid $primaryColorBlue;
+}
+input[type='text']:focus{
+    outline: none;
+}
+.rightBar {
+    transition: all .3s;
+}
+.bigText {
+    color: $primaryColorBlue;
+}
+@media screen and (max-width: 1029px) {
+    .inputCont input {
+        width: 15rem;
+    }
+    .input {
+        font-size: 1rem ;
+    }
+}
+.heroBtn, .heroBtnn {
+    width: 48%;
+    border-color: $primaryColorBlue;
+    transition: all .2s;
+}
+.heroBtnn {
+    background-color: $primaryColorBlue;
+    color: white;
+}
+.heroBtnn:hover {
+    background-color: white;
+    color: $primaryColorBlue;
+}
+.heroBtn:hover {
+    background-color: $primaryColorBlue;
+    color: white;
+}
