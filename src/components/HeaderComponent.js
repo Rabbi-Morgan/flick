@@ -2,10 +2,7 @@ import React,{Component} from "react";
 
 
 class HeroHeader extends Component{
-    constructor(props){
-        super(props)
-    }
-
+    
     render(){
         return(
             <div className="headerCont text-gray-800 z-10 w-full overflow-hidden h-screen">
@@ -23,7 +20,7 @@ class HeroHeader extends Component{
                         </div>
                     </div>
                     <div className="hidden md:col-span-5 md:block heroImg">
-                            <img className="w-full" src={window.location.origin + '/assets/images/imagegirl.png'}/>
+                            <img className="w-full" src={window.location.origin + '/assets/images/imagegirl.png'} alt=""/>
                     </div>
                 </div>
             </div>

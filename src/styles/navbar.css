@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .navbar {
   font-size: 1rem;
   background-color: #03045E;
@@ -73,5 +80,61 @@ input[type='text']:focus {
 .heroBtn:hover {
   background-color: #03045E;
   color: white;
+}
+
+.prdtGrd {
+  -ms-grid-columns: (minmax(280px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 300px;
+}
+
+.bgPrdtHed {
+  color: #03045E;
+}
+
+.smPrdtP span {
+  color: #03045E;
+  cursor: pointer;
+}
+
+.headerCont {
+  background: url(/public/assets/images/bg-pattern-intro.svg);
+  background-repeat: no-repeat;
+  background-position: top 50% right 50%;
+  background-size: 190rem;
+}
+
+@media screen and (max-width: 620px) {
+  .headerCont {
+    background-position: top 10%;
+    background-size: 68rem;
+  }
+}
+
+.easy {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url(/public/assets/images/delivery.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(/public/assets/images/delivery.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cards {
+  background-color: #03045E;
+}
+
+.cards:hover {
+  background-color: white;
+  color: #03045E;
+}
+
+.crdCont {
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-auto-rows: 200px;
+}
+
+#footer {
+  background-color: #03045E;
 }
 /*# sourceMappingURL=navbar.css.map */
