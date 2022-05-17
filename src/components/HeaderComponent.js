@@ -16,7 +16,7 @@ class HeroHeader extends Component{
                         </div>
                         <div className="buttons flex justify-between">
                             <button className="border-solid border-2 font-bold rounded-r-full rounded-l-full heroBtnn px-8 py-2">Trade</button>
-                            <button className="border-solid font-bold border-2 rounded-r-full rounded-l-full heroBtn px-4 py-2">Traveler</button>
+                            <button className="border-solid font-bold border-2 rounded-r-full rounded-l-full heroBtn px-4 py-2"><a href='https://greencode12.github.io/'>Traveler</a></button>
                         </div>
                     </div>
                     <div className="hidden md:col-span-5 md:block heroImg">
